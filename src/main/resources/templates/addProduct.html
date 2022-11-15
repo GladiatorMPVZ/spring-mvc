@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+</head>
+<body>
+<form th:action="add" method="post">
+    <p>id: <input type="text" name = "id"></p>
+    <p>cost: <input type="text" name = "cost"></p>
+    <p>title: <input type="text" name = title></p>
+    <p><input type="submit"></p>
+</form>
+<td> <a th:href="@{http://localhost:8180/app/all}">all product</a> </td><br>
+</body>
+</html>
